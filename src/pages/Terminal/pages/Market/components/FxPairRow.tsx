@@ -49,7 +49,7 @@ export const FxPairRow: React.FC<FxPairRowProps> = ({
                     result.indicators?.quote?.[0]?.close || [];
 
                 let merged: ChartPoint[] = timestamps
-                    .map((t, i) => ({ time: i, value: closes[i] }))
+                    .map((_, i) => ({ time: i, value: closes[i] }))
                     .filter((p): p is ChartPoint => typeof p.value === "number")
                     .slice(-20);
 
@@ -134,3 +134,4 @@ export const FxPairRow: React.FC<FxPairRowProps> = ({
         </NavLink>
     );
 };
+

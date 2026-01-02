@@ -1,10 +1,11 @@
-import { ArrowLeft, VerifiedIcon } from "lucide-react";
-import { ChangeEvent, useState } from "react";
+import { VerifiedIcon } from "lucide-react";
+import { useState } from "react";
+import type { ChangeEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 
 function Verification() {
-    const [verified, setVerified] = useState(false);
+    const [verified] = useState(false);
     const [inprocess, setinProcess] = useState(() => localStorage.getItem("verificationInProcess") === "true" ? true : false);
     const [documentType, setDocumentType] = useState("passport");
     const [uploadedFile, setUploadedFile] = useState<File | null>(null);

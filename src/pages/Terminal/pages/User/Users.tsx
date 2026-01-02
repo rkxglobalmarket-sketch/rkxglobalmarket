@@ -1,5 +1,6 @@
 import * as Icon from "lucide-react"
 import Footer from "../../components/Footer";
+import type { LucideIcon } from 'lucide-react'
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { getAuth } from "firebase/auth";
@@ -14,7 +15,7 @@ function OptionCard({
 }
 ) {
   const getIcon = (icon: string) => {
-    const IconComponent = Icon[icon as keyof typeof Icon];
+    const IconComponent = Icon[icon as keyof typeof Icon] as LucideIcon | undefined;
     return IconComponent ? <IconComponent size={30} color="#BC8600" /> : null;
   }
   return (
@@ -115,5 +116,6 @@ function Users() {
     </div>
   )
 }
+
 
 export default Users;

@@ -1,4 +1,3 @@
-import { ArrowLeft } from "lucide-react"
 import { useEffect, useState } from "react"
 import { QRCodeSVG as QRCode } from "qrcode.react";
 import Header from "../components/Header";
@@ -37,5 +36,6 @@ function Invite() {
         </div>
     )
 }
+
 
 export default Invite

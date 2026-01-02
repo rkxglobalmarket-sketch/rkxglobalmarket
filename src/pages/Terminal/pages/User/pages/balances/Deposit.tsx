@@ -76,30 +76,38 @@ export default function Recharge() {
                     />
 
                     <div className="flex flex-col items-center mb-10">
-                        <label className="w-28 h-28 bg-gray-100 flex items-center justify-center rounded-lg cursor-pointer">
+                        <label className="w-28 h-28 bg-gray-100 flex items-center justify-center rounded-lg cursor-pointer overflow-hidden">
                             <input
                                 type="file"
                                 hidden
                                 onChange={(e) => setFile(e.target.files?.[0] || null)}
                             />
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-8 w-8 text-gray-300"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                            >
-                                <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M3 7h2l2-3h10l2 3h2v13H3V7z"
+                            {file ? (
+                                <img
+                                    src={URL.createObjectURL(file)}
+                                    alt="Uploaded certificate"
+                                    className="w-full h-full object-cover"
                                 />
-                                <circle cx="12" cy="13" r="3" />
-                            </svg>
+                            ) : (
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="h-8 w-8 text-gray-300"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={2}
+                                        d="M3 7h2l2-3h10l2 3h2v13H3V7z"
+                                    />
+                                    <circle cx="12" cy="13" r="3" />
+                                </svg>
+                            )}
                         </label>
                         <p className="text-sm mt-3 text-black">
-                            Uploading Certificate
+                            {file ? file.name : "Uploading Certificate"}
                         </p>
                     </div>
 

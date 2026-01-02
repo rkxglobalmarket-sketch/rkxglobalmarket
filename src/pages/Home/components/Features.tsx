@@ -1,4 +1,5 @@
 import * as Lucide from 'lucide-react'
+import type { LucideIcon } from 'lucide-react'
 type LucideIconName = keyof typeof Lucide
 import { useTranslation } from 'react-i18next'
 
@@ -50,3 +51,4 @@ function Features() {
 
 
 export default Features
+

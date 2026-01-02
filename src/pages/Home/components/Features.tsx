@@ -10,7 +10,7 @@ interface FeatureCardProps {
 function FeatureCard({
     icon, content
 }: FeatureCardProps) {
-    const IconComponent = Lucide[icon]
+    const IconComponent = Lucide[icon] as LucideIcon
 
     if (!IconComponent) {
         console.error(`Lucide icon "${icon}" not found. This should not happen with correct type usage.`)
@@ -47,5 +47,6 @@ function Features() {
         </div>
     )
 }
+
 
 export default Features

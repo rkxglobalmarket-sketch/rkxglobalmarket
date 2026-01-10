@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "symbol": "AUDUSD",
+        "yahooSymbol": "AUDUSD=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/AUDUSD=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/AUDUSD.svg"
+    },
+    {
+        "id": 2,
+        "symbol": "FSLR.US",
+        "yahooSymbol": "FSLR",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/FSLR",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/undefined.svg"
+    },
+    {
+        "id": 3,
+        "symbol": "AUDNZD",
+        "yahooSymbol": "AUDNZD=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/AUDNZD=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/AUDNZD.svg"
+    },
+    {
+        "id": 4,
+        "symbol": "AUDJPY",
+        "yahooSymbol": "AUDJPY=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/AUDJPY=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/AUDJPY.svg"
+    },
+    {
+        "id": 5,
+        "symbol": "BTCUSD",
+        "yahooSymbol": "BTC-USD",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/BTC-USD",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/BTCUSD.svg"
+    },
+    {
+        "id": 6,
+        "symbol": "BAC.US",
+        "yahooSymbol": "BAC",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/BAC",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/undefined.svg"
+    },
+    {
+        "id": 7,
+        "symbol": "CADJPY",
+        "yahooSymbol": "CADJPY=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/CADJPY=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/CADJPY.svg"
+    },
+    {
+        "id": 8,
+        "symbol": "ETHUSD",
+        "yahooSymbol": "ETH-USD",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/ETH-USD",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/ETHUSD.svg"
+    },
+    {
+        "id": 9,
+        "symbol": "EURUSD",
+        "yahooSymbol": "EURUSD=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/EURUSD=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/EURUSD.svg"
+    },
+    {
+        "id": 10,
+        "symbol": "FCX.US",
+        "yahooSymbol": "FCX",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/FCX",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/undefined.svg"
+    },
+    {
+        "id": 11,
+        "symbol": "EURCHF",
+        "yahooSymbol": "EURCHF=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/EURCHF=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/EURCHF.svg"
+    },
+    {
+        "id": 12,
+        "symbol": "EURGBP",
+        "yahooSymbol": "EURGBP=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/EURGBP=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/EURGBP.svg"
+    },
+    {
+        "id": 13,
+        "symbol": "EURNZD",
+        "yahooSymbol": "EURNZD=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/EURNZD=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/EURNZD.svg"
+    },
+    {
+        "id": 14,
+        "symbol": "EURAUD",
+        "yahooSymbol": "EURAUD=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/EURAUD=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/EURAUD.svg"
+    },
+    {
+        "id": 15,
+        "symbol": "EURJPY",
+        "yahooSymbol": "EURJPY=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/EURJPY=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/EURJPY.svg"
+    },
+    {
+        "id": 16,
+        "symbol": "EURCAD",
+        "yahooSymbol": "EURCAD=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/EURCAD=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/EURCAD.svg"
+    },
+    {
+        "id": 17,
+        "symbol": "GBPNZD",
+        "yahooSymbol": "GBPNZD=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/GBPNZD=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/GBPNZD.svg"
+    },
+    {
+        "id": 18,
+        "symbol": "GBPJPY",
+        "yahooSymbol": "GBPJPY=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/GBPJPY=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/GBPJPY.svg"
+    },
+    {
+        "id": 19,
+        "symbol": "GBPUSD",
+        "yahooSymbol": "GBPUSD=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/GBPUSD=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/GBPUSD.svg"
+    },
+    {
+        "id": 20,
+        "symbol": "GBPAUD",
+        "yahooSymbol": "GBPAUD=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/GBPAUD=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/GBPAUD.svg"
+    },
+    {
+        "id": 21,
+        "symbol": "NZDJPY",
+        "yahooSymbol": "NZDJPY=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/NZDJPY=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/NZDJPY.svg"
+    },
+    {
+        "id": 22,
+        "symbol": "NZDUSD",
+        "yahooSymbol": "NZDUSD=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/NZDUSD=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/NZDUSD.svg"
+    },
+    {
+        "id": 23,
+        "symbol": "USDCAD",
+        "yahooSymbol": "USDCAD=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/USDCAD=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/USDCAD.svg"
+    },
+    {
+        "id": 24,
+        "symbol": "USDCHF",
+        "yahooSymbol": "USDCHF=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/USDCHF=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/USDCHF.svg"
+    },
+    {
+        "id": 25,
+        "symbol": "USDJPY",
+        "yahooSymbol": "USDJPY=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/USDJPY=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/USDJPY.svg"
+    },
+    {
+        "id": 26,
+        "symbol": "USOIL",
+        "yahooSymbol": "CL=F",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/CL=F",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/undefined.svg"
+    },
+    {
+        "id": 27,
+        "symbol": "UKOIL",
+        "yahooSymbol": "BZ=F",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/BZ=F",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/undefined.svg"
+    },
+    {
+        "id": 28,
+        "symbol": "AUDCAD",
+        "yahooSymbol": "AUDCAD=X",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/AUDCAD=X",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/AUDCAD.svg"
+    },
+    {
+        "id": 29,
+        "symbol": "XAGUSD",
+        "yahooSymbol": "SI=F",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/SI=F",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/XAGUSD.svg"
+    },
+    {
+        "id": 30,
+        "symbol": "XAUUSD",
+        "yahooSymbol": "GC=F",
+        "dataUrl": "https://query1.finance.yahoo.com/v8/finance/chart/GC=F",
+        "imageUrl": "https://m.equinnoxtrading.com/icons/XAUUSD.svg"
+    }
+]
